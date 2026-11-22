@@ -12,9 +12,9 @@
   <a href="https://github.com/Xylloz/noobify-releases/releases/latest"><b>Download the latest version</b></a>
 </p>
 
-<!-- Screenshot: Now Playing with lyrics lit up and the music video playing.
-     File: brand/now-playing.png (about 1600x1000, Skyline theme) -->
-<!-- <p align="center"><img src="brand/now-playing.png" alt="Now Playing, with lyrics" width="800"></p> -->
+<p align="center">
+  <img src="brand/now-playing.png" alt="Now Playing with synced lyrics, in the Skyline theme" width="880">
+</p>
 
 ## Why
 
@@ -24,6 +24,17 @@ music, all playing from YouTube and SoundCloud. Sign in with Spotify and your pl
 and liked songs come along. Skip it and everything else still works.
 
 It's free and open source. No account, no ads, and it never asks for admin rights.
+
+<table>
+  <tr>
+    <td width="50%"><img src="brand/home.png" alt="Home, in the Midnight theme"></td>
+    <td width="50%"><img src="brand/stage.png" alt="The Stage visualiser, in the Ember theme"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>Home</b> · Midnight</sub></td>
+    <td align="center"><sub><b>Stage visualiser</b> · Ember</sub></td>
+  </tr>
+</table>
 
 ## What it does
 
@@ -48,8 +59,19 @@ It's free and open source. No account, no ads, and it never asks for admin right
 - **For you**: Suggestions based on what you actually listen to. Mashups, karaoke and
   sped-up versions stay out unless you play them yourself.
 - **Downloads**: Save any song as MP3 or WAV.
-- **Themes**: Skyline, Desktop (colours from your wallpaper), Dark, Midnight, Light and
-  Ember, plus visualisers and colours that follow each song.
+- **Themes**: Skyline, Desktop, Dark, Midnight, Light and Ember, plus visualisers and
+  colours that follow each song.
+- **Your wallpaper, in the player**: The Desktop theme takes its colours and backdrop
+  from your wallpaper. It follows Wallpaper Engine too, and video wallpapers can keep
+  moving behind the player and brighten with the beat.
+- **Listening stats**: Time listened, top artists and songs, every play, your streak and
+  the days you listened, for a week, a month, a year or all time. Import your Spotify
+  history to start with years of it.
+- **Chapters**: Long mixes on YouTube and SoundCloud show their tracklist, and you can
+  jump straight to a song.
+- **Right-click anything**: Every song, in every list, on Now Playing and in the player
+  bar, has the same menu: play it next, add it to a playlist, go to the album or artist,
+  start a song radio, or pick a different upload if the wrong version plays.
 - **Keyboard**: H for Home, D for the Dig, N for Now Playing, / to search. Ctrl+Alt+Space
   plays or pauses from any app, most games included. Media keys work too, and the song
   shows in Windows' media panel and on the lock screen.
@@ -59,11 +81,24 @@ It's free and open source. No account, no ads, and it never asks for admin right
 - **Updates itself**: It checks for a new version once a day, verifies the download,
   and installs it when you restart noobify. You can turn that off.
 
-<!-- Screenshots, side by side:
-     brand/playlist.png  a playlist page
-     brand/dig.png       the Dig, a few crates open
-     brand/discord.png   a Discord profile showing noobify with Join
--->
+### Your listening, all in one place
+
+<p align="center">
+  <img src="brand/stats.png" alt="Listening stats: time per week, totals and top artists" width="880">
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="brand/stats-days.png" alt="The days you listened"></td>
+    <td width="50%"><img src="brand/liked.png" alt="Liked Songs, in the Ember theme"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>The days you listened</b></sub></td>
+    <td align="center"><sub><b>Liked Songs</b> · Ember</sub></td>
+  </tr>
+</table>
+
+<sub>Screenshots are from noobify's demo mode, with made-up songs and artists.</sub>
 
 ## Install
 
