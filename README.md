@@ -128,10 +128,10 @@ If you'd rather look yourself:
 - **VirusTotal**: Every release is scanned, and the result is in its notes.
 
 <!-- vt -->
-VirusTotal's scan of 0.3.8:
+VirusTotal's scan of 0.3.8.1:
 
-- [`Noobify-0.3.8-setup.exe`](https://www.virustotal.com/gui/file/8bf53b99aa4c9c595928ab1b611b8c15291ef6d054c2eb72e326152e6bd642ad): 0 of 69 scanners flagged it
-- [`Noobify-0.3.8.zip`](https://www.virustotal.com/gui/file/ed2652e29b537ab0df126a16e42c5c1e6010647eb8de2a85ceda8132cae0a327): 0 of 66 scanners flagged it
+- [`Noobify-0.3.8.1-setup.exe`](https://www.virustotal.com/gui/file/ddf66c9d92c1337b6da5689d2b647110cd40a05c11e127dfd528864c5fd9e646): 0 of 69 scanners flagged it
+- [`Noobify-0.3.8.1.zip`](https://www.virustotal.com/gui/file/ad8846e10fd07b0d006392c405d40d689b119ab70b9069252c551498cb516c38): 0 of 65 scanners flagged it
 <!-- /vt -->
 
 ## What it connects to
