@@ -195,10 +195,10 @@ Or check it yourself:
 - **VirusTotal.** Every release gets scanned, and the results are in its notes.
 
 <!-- vt -->
-VirusTotal's scan of 0.3.9.5:
+VirusTotal's scan of 0.3.9.6:
 
-- [`Noobify-0.3.9.5-setup.exe`](https://www.virustotal.com/gui/file/54bdc0555652c9e2bfd97d8e4237f45be085d800b8fc123ba4cc3d8f00f97e34): 0 of 68 scanners flagged it
-- [`Noobify-0.3.9.5.zip`](https://www.virustotal.com/gui/file/3c583e792b14c1ba9f463c6045f2a9ddf6abb6f5862fd61c0471631a15625c5d): 0 of 64 scanners flagged it
+- [`Noobify-0.3.9.6-setup.exe`](https://www.virustotal.com/gui/file/f0b9133cfcd34d7639e2ec73834e1b7be3fc64c9277d965d09d4d76a0d3ab00b): 0 of 66 scanners flagged it
+- [`Noobify-0.3.9.6.zip`](https://www.virustotal.com/gui/file/3ff5b3f5fb2978b6236c604373acad12c16e687432fdc399e9a33f22a39ed6c2): 0 of 65 scanners flagged it
 <!-- /vt -->
 
 ## What it connects to
