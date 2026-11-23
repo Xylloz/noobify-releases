@@ -5,7 +5,7 @@
 <h1 align="center">noobify</h1>
 
 <p align="center">
-  A free music player for Windows. YouTube and SoundCloud in one place, with your Spotify library if you want it.
+  A free music player for Windows. YouTube and SoundCloud in one place, plus your Spotify library if you want it.
 </p>
 
 <p align="center">
@@ -18,10 +18,14 @@
 
 ## Why
 
-Most of what people listen to is on YouTube, but YouTube isn't a music player. noobify
-is one: a library, a queue, lyrics, your song on Discord, and a good way to find new
-music, all playing from YouTube and SoundCloud. Sign in with Spotify and your playlists
-and liked songs come along. Skip it and everything else still works.
+Most of the music people listen to is on YouTube, but YouTube isn't a music player.
+There's no real library, the queue gets in your way, and half the results are the wrong
+version of the song. The Spotify desktop app has the library, but it's heavy, and a lot of
+music just isn't on it.
+
+So we made the player we wanted: a proper music player built on YouTube and SoundCloud,
+with a library, a queue, synced lyrics and your song on Discord. Sign in with Spotify and
+your playlists and liked songs come along. Don't, and everything else still works.
 
 It's free and open source. No account, no ads, and it never asks for admin rights.
 
@@ -36,55 +40,81 @@ It's free and open source. No account, no ads, and it never asks for admin right
   </tr>
 </table>
 
-## What it does
+## What makes it different
 
-- **Spotify if you want it**: Sign in to bring your playlists, liked songs and artist
-  pages. The music itself plays from YouTube and SoundCloud. noobify only reads your
-  Spotify account and never changes anything on it.
-- **Paste a link**: Drop a Spotify, YouTube or SoundCloud playlist link in the search
-  box and it opens as a normal playlist. Play it, save the whole thing, or pick songs out.
-- **Your own playlists**: Kept on your PC, with songs from anywhere.
-- **Lyrics**: Synced lyrics from [LRCLIB](https://lrclib.net) that follow the song line by
-  line, or word by word when the timing is known. The next song's lyrics load while the
-  current one plays.
-- **Music videos**: A song's official video plays in Now Playing, in time with the record.
-  You hear the record, not the video's version.
-- **Listen along on Discord**: Your status shows what you're playing, like Spotify's.
-  Friends can click Join and follow you song after song, pauses and skips included.
-  Clicking the song on your status plays it in their noobify, or points them here if
-  they don't have it yet.
-- **The Dig**: Crates to flip through by sound, place and era, plus records from Discogs
-  by genre, style, country and how few people own them. It leans toward music you
-  haven't heard of.
-- **For you**: Suggestions based on what you actually listen to. Mashups, karaoke and
-  sped-up versions stay out unless you play them yourself.
-- **Downloads**: Save any song as MP3 or WAV.
-- **Themes**: Skyline, Desktop, Dark, Midnight, Light and Ember, plus visualisers and
-  colours that follow each song.
-- **Your wallpaper, in the player**: The Desktop theme takes its colours and backdrop
-  from your wallpaper. It follows Wallpaper Engine too, and video wallpapers can keep
-  moving behind the player and brighten with the beat.
-- **Listening stats**: Time listened, top artists and songs, every play, your streak and
-  the days you listened, for a week, a month, a year or all time. Import your Spotify
-  history to start with years of it.
-- **Chapters**: Long mixes on YouTube and SoundCloud show their tracklist, and you can
-  jump straight to a song.
-- **Right-click anything**: Every song, in every list, on Now Playing and in the player
-  bar, has the same menu: play it next, add it to a playlist, go to the album or artist,
-  start a song radio, or pick a different upload if the wrong version plays.
-- **Keyboard**: H for Home, D for the Dig, N for Now Playing, / to search. Ctrl+Alt+Space
-  plays or pauses from any app, most games included. Media keys work too, and the song
-  shows in Windows' media panel and on the lock screen.
-- **Light on memory**: Settings shows how much memory noobify is using, what's using the
-  most, and a lighter option for each.
-- **Last.fm**: Scrobbles, if you connect it.
-- **Updates itself**: It checks for a new version once a day, verifies the download,
-  and installs it when you restart noobify. You can turn that off.
+**It plays the real song.** Search YouTube for a song and half the results are sped-up
+edits, lyric videos, live versions and covers. noobify skips all of that and finds the
+actual record. If it ever picks the wrong one, right-click the song, choose another
+upload, and it'll remember your pick from then on.
+
+**Your Spotify, YouTube and SoundCloud music, all in one place.** Your Spotify
+playlists, liked songs and artist pages sit right next to anything from YouTube and
+SoundCloud, in one library and one queue. Even playlists with thousands of songs open
+right away, and after the first time they open instantly. Local files in your Spotify
+playlists play too, matched from YouTube. noobify only reads your Spotify account and
+never changes anything on it.
+
+**Listen along with friends on Discord, for free.** Your Discord status shows what you're
+playing, cover and all. Friends hit Join and hear the same song at the same moment,
+pauses and skips included. Nobody needs Premium. If a friend doesn't have noobify yet,
+clicking your song sends them here.
+
+**Lyrics and videos that actually line up.** Lyrics come from
+[LRCLIB](https://lrclib.net) and follow the song line by line, or word by word when the
+timing's there. Turn on the video and the song's official music video plays in time with
+the record. You still hear the album version, not the video's edit.
+
+**Finds music you haven't heard yet.** The Dig is a set of crates to flip through by
+sound, place and era, plus Discogs records sorted by how few people own them. For you
+builds suggestions from what you actually play, and leaves out mashups, karaoke and
+sped-up versions unless you play those yourself.
+
+**Your stats, any time.** Think Wrapped, but whenever you want. See time listened, top
+artists and songs, every play, your streak and which days you listened, for a week, a
+month, a year or all time. Import your Spotify history and start with years of it.
+
+**Built for Windows, and light on it.** It's a native app, not a website in a box. It
+starts fast and stays small. Settings shows how much memory it's using and what you can
+turn down. Songs you've played are kept on your PC, so they start instantly the next time.
+
+## Everything else
+
+### Your music
+
+- **Paste any playlist link.** Spotify, YouTube or SoundCloud. Drop it in the search box
+  and it opens like any other playlist. Play it, save it, or pick out the songs you want.
+- **Your own playlists.** They live on your PC and can mix songs from anywhere.
+- **Chapters.** Long mixes on YouTube and SoundCloud show their tracklist, so you can jump
+  straight to a song.
+- **Downloads.** Save any song as an MP3 or WAV.
+- **Last.fm.** Connect it and noobify scrobbles for you.
+
+### Make it yours
+
+- **Themes.** Skyline, Desktop, Dark, Midnight, Light and Ember, plus visualisers and
+  colours that change with each song.
+- **Your wallpaper.** The Desktop theme takes its colours and backdrop from your
+  wallpaper. It works with Wallpaper Engine too, and video wallpapers keep moving behind
+  the player and pulse with the beat.
+
+### Control it from anywhere
+
+- **Right-click anything.** Every song has the same menu wherever it shows up: play it
+  next, add it to a playlist, go to the artist or album, or start a song radio.
+- **Keyboard shortcuts.** H for Home, D for the Dig, N for Now Playing, / to search.
+- **Global hotkey.** Ctrl+Alt+Space plays or pauses from any app, most games included.
+- **Media keys.** They just work, and the song shows in Windows' media panel and on the
+  lock screen.
+
+### Stays up to date
+
+noobify checks for a new version once a day, verifies the download and installs it when
+you restart. You can turn this off.
 
 ### Your listening, all in one place
 
 <p align="center">
-  <img src="brand/stats.png" alt="Listening stats: time per week, totals and top artists" width="880">
+  <img src="brand/stats.png" alt="Listening stats: time per day, totals and top artists" width="880">
 </p>
 
 <table>
@@ -93,32 +123,31 @@ It's free and open source. No account, no ads, and it never asks for admin right
     <td width="50%"><img src="brand/liked.png" alt="Liked Songs, in the Ember theme"></td>
   </tr>
   <tr>
-    <td align="center"><sub><b>The days you listened</b></sub></td>
+    <td align="center"><sub><b>A day's listening</b></sub></td>
     <td align="center"><sub><b>Liked Songs</b> · Ember</sub></td>
   </tr>
 </table>
-
-<sub>Screenshots are from noobify's demo mode, with made-up songs and artists.</sub>
 
 ## Install
 
 1. Open [the latest release](https://github.com/Xylloz/noobify-releases/releases/latest)
    and download `Noobify-<version>-setup.exe` (about 90 MB).
 2. Run it. If Windows warns you, see below.
-3. Open noobify from the Start menu. It installs for your Windows user only, and
-   everything it needs (yt-dlp, ffmpeg and Deno) comes with it.
+3. Open noobify from the Start menu.
 
-From then on it keeps itself up to date. Installing over an older version keeps your
-settings, history and saved songs.
+It installs for your Windows user only, and it comes with everything it needs (yt-dlp,
+ffmpeg and Deno). After that it keeps itself up to date. Installing over an older version
+keeps your settings, history and saved songs.
 
-**Portable**: `Noobify-<version>.zip` is the same app. Unzip it anywhere and run
-`noobify.exe`. It tells you when there's a new version, but you swap it in yourself.
+**Want it portable?** Grab `Noobify-<version>.zip` instead. It's the same app: unzip it
+anywhere and run `noobify.exe`. It'll tell you when there's a new version, but you swap
+it in yourself.
 
 ## If Windows warns you
 
-noobify isn't code signed yet. Free signing for open source projects through
-[SignPath](https://signpath.org) is being set up. Until then Windows doesn't know who
-made it, and new apps without many downloads get flagged.
+noobify isn't code signed yet, so Windows doesn't know who made it. New apps without many
+downloads get flagged because of that. Free signing for open source projects through
+[SignPath](https://signpath.org) is being set up.
 
 <!-- When releases are signed, replace the paragraph above with:
 noobify is signed (free code signing by SignPath.io, certificate by SignPath
@@ -130,29 +159,32 @@ that's what the warning is about.
 
 **"Smart App Control blocked an app"**: Smart App Control only runs apps Windows already
 knows, and there's no Run anyway button. You can turn it off in Windows Security, under
-App & browser control, but on some versions of Windows 11 it can't be turned back on
-without reinstalling Windows, so it's your call. If an update gets blocked this way,
-noobify keeps working as it was and shows you where to download the update yourself.
+App & browser control. Be aware that on some versions of Windows 11 you can't turn it back
+on without reinstalling Windows, so it's your call.
+
+If an update gets blocked this way, noobify keeps working as it was and shows you where to
+download the update yourself.
 
 ## Is it malware?
 
-Fair thing to wonder about a free .exe from a Discord link. Short answer: no. Long
-answer: you don't have to take our word for it, just ask your Claude. Everything is
-public, so it can read the whole thing. Something like:
+Fair question for a free .exe from a Discord link. Short answer: no.
+
+Longer answer: you don't have to take our word for it. Everything is public, so you can
+ask your Claude to read the whole thing. Something like:
 
 > hey, can you check if github.com/Xylloz/noobify is safe to install?
 
-If you'd rather look yourself:
+Or check it yourself:
 
-- **The code**: all of it is at [github.com/Xylloz/noobify](https://github.com/Xylloz/noobify),
+- **The code.** All of it is at [github.com/Xylloz/noobify](https://github.com/Xylloz/noobify),
   MIT licensed.
-- **The build**: Releases aren't built on anyone's PC. Pushing a version tag starts
+- **The build.** Releases aren't built on anyone's PC. Pushing a version tag starts
   [a GitHub Actions run](https://github.com/Xylloz/noobify/actions/workflows/release.yml)
-  that tests and builds noobify from that exact code, packages it, and publishes it
-  here. You can read every step in
+  that tests and builds noobify from that exact code, packages it and publishes it here.
+  Every step is in
   [`release.yml`](https://github.com/Xylloz/noobify/blob/main/.github/workflows/release.yml).
-- **The checksum**: Each release's `latest.json` has the SHA-256 of its setup file. To
-  check your download, run this in PowerShell and compare it with `sha256` in
+- **The checksum.** Each release's `latest.json` has the SHA-256 of its setup file. To
+  check your download, run this in PowerShell and compare the result with `sha256` in
   `latest.json`:
 
   ```
@@ -160,7 +192,7 @@ If you'd rather look yourself:
   ```
 
   noobify checks its own updates the same way before installing them.
-- **VirusTotal**: Every release is scanned, and the result is in its notes.
+- **VirusTotal.** Every release gets scanned, and the results are in its notes.
 
 <!-- vt -->
 VirusTotal's scan of 0.3.9.5:
@@ -171,32 +203,40 @@ VirusTotal's scan of 0.3.9.5:
 
 ## What it connects to
 
-Only what it needs for what you're doing: YouTube, SoundCloud, Deezer (song info and
-covers), Discogs and MusicBrainz (records), LRCLIB (lyrics), and Spotify or Last.fm if
-you sign in to them. Your Discord status goes to the Discord app on your own PC.
+Only what it needs for what you're doing:
 
-While your Discord status is on and a song is playing, noobify keeps a room open on a
-small relay on Cloudflare (it's in `relay/` in the code) so friends can click Join. It
-passes along the song, pauses and skips to whoever's listening, ten people at most. It
-never sees names or accounts and keeps nothing but the room's key. Turn the Discord
-status off and none of this happens.
+- YouTube and SoundCloud, for the music
+- Deezer, for song info and covers
+- Discogs and MusicBrainz, for records
+- LRCLIB, for lyrics
+- Spotify and Last.fm, if you sign in to them
 
-Once a day noobify reads `latest.json` from this page to check for updates. Your
-settings, history and saved songs stay on your PC in `%APPDATA%\noobify`.
+Your Discord status goes to the Discord app on your own PC.
+
+**Listening along.** While your Discord status is on and a song is playing, noobify keeps
+a room open on a small relay on Cloudflare (it's in `relay/` in the code), so friends can
+hit Join. The relay passes the song, pauses and skips to whoever's listening, ten people
+at most. It never sees names or accounts, and it keeps nothing but the room's key. Turn
+the Discord status off and none of this happens.
+
+**Updates.** Once a day noobify reads `latest.json` from this page to check for a new
+version.
+
+Your settings, history and saved songs stay on your PC, in `%APPDATA%\noobify`.
 
 ## Uninstalling
 
-Settings, Apps, noobify, Uninstall. It asks whether to delete your settings and saved
-songs too.
+Go to Settings, Apps, noobify, Uninstall. It'll ask whether to delete your settings and
+saved songs too.
 
 ## Something broke?
 
-[Open an issue](https://github.com/Xylloz/noobify/issues) with the version from the
-bottom of Settings. If they exist, attach `crash.log` and `last-failure.txt` from
+[Open an issue](https://github.com/Xylloz/noobify/issues) and include the version from
+the bottom of Settings. If you have them, attach `crash.log` and `last-failure.txt` from
 `%APPDATA%\noobify`.
 
 ## License
 
 [MIT](https://github.com/Xylloz/noobify/blob/main/LICENSE). yt-dlp (Unlicense), ffmpeg
-(GPL) and Deno (MIT) come with it under their own licenses, listed in `LICENSES.txt`
-next to `noobify.exe`. The Skyline picture is by [catzz.work](https://catzz.work).
+(GPL) and Deno (MIT) come with it under their own licenses, listed in `LICENSES.txt` next
+to `noobify.exe`. The Skyline picture is by [catzz.work](https://catzz.work).
