@@ -8,8 +8,12 @@
   A free music player for Windows. YouTube and SoundCloud in one place, plus your Spotify library if you want it.
 </p>
 
+<h3 align="center">
+  <a href="https://noobify-relay.tehxyllo.workers.dev/download">⬇ Download noobify for Windows</a>
+</h3>
+
 <p align="center">
-  <a href="https://github.com/Xylloz/noobify-releases/releases/latest"><b>Download the latest version</b></a>
+  Free · Windows 10 and 11 · <a href="#install">How to install</a> · <a href="#if-windows-warns-you">Windows warned me?</a> · <a href="#is-it-malware">Is it safe?</a>
 </p>
 
 <p align="center">
@@ -55,9 +59,10 @@ playlists play too, matched from YouTube. noobify only reads your Spotify accoun
 never changes anything on it.
 
 **Listen along with friends on Discord, for free.** Your Discord status shows what you're
-playing, cover and all. Friends hit Join and hear the same song at the same moment,
-pauses and skips included. Nobody needs Premium. If a friend doesn't have noobify yet,
-clicking your song sends them here.
+playing, cover and all. A friend clicks your song, its cover or the noobify logo on it,
+then **Ask to listen along**. You accept in noobify, and from then on you both hear the
+same song at the same moment, pauses and skips included. Nobody needs Premium. If a friend
+doesn't have noobify yet, the same click shows them what it is and how to get it.
 
 **Lyrics and videos that actually line up.** Lyrics come from
 [LRCLIB](https://lrclib.net) and follow the song line by line, or word by word when the
@@ -130,23 +135,33 @@ you restart. You can turn this off.
 
 ## Install
 
-1. Open [the latest release](https://github.com/Xylloz/noobify-releases/releases/latest)
-   and download `Noobify-<version>-setup.exe` (about 90 MB).
-2. Run it. If Windows warns you, see below.
-3. Open noobify from the Start menu.
+1. **[Download the installer](https://noobify-relay.tehxyllo.workers.dev/download)**
+   (`Noobify-<version>-setup.exe`, about 90 MB). That link always gets the newest one.
+2. **Open the file you downloaded.** Windows will probably say **"Windows protected your
+   PC"**. Click **More info**, then **Run anyway**. That's normal for a new app, see
+   [below](#if-windows-warns-you) for why.
+3. **Click through the installer** (Next, Install, Finish). No admin rights needed.
+4. **Open noobify** from the Start menu or your desktop.
 
-It installs for your Windows user only, and it comes with everything it needs (yt-dlp,
-ffmpeg and Deno). After that it keeps itself up to date. Installing over an older version
-keeps your settings, history and saved songs.
+It installs for your Windows user only and comes with everything it needs (yt-dlp, ffmpeg
+and Deno). From then on it keeps itself up to date. Installing over an older version keeps
+your settings, history and saved songs.
 
-**Want it portable?** Grab `Noobify-<version>.zip` instead. It's the same app: unzip it
-anywhere and run `noobify.exe`. It'll tell you when there's a new version, but you swap
-it in yourself.
+> **Downloading from the release page instead?** Pick the file ending in **`-setup.exe`**
+> under **Assets** at the bottom. The links under "Virus scans" are scan reports, not
+> downloads.
+
+**Want it portable?** Grab `Noobify-<version>.zip` from
+[the release page](https://github.com/Xylloz/noobify-releases/releases/latest) instead.
+It's the same app: unzip it anywhere and run `noobify.exe`. It tells you when there's a new
+version, but you swap it in yourself. If you're not sure, use the installer.
 
 ## If Windows warns you
 
 noobify isn't code signed yet, so Windows doesn't know who made it. New apps without many
-downloads get flagged because of that. Free signing for open source projects through
+downloads get flagged because of that. The warning is about the missing signature, not
+about anything found in the file: the [virus scans](#is-it-malware) of every release come
+back clean. Free signing for open source projects through
 [SignPath](https://signpath.org) is being set up.
 
 <!-- When releases are signed, replace the paragraph above with:
@@ -197,8 +212,8 @@ Or check it yourself:
 <!-- vt -->
 VirusTotal's scan of 0.3.9.8:
 
-- [`Noobify-0.3.9.8-setup.exe`](https://www.virustotal.com/gui/file/d5473532ea04586f64be95ff39c7e7884d005fad604eebcf8c3467913e4b715f): 0 of 67 scanners flagged it
-- [`Noobify-0.3.9.8.zip`](https://www.virustotal.com/gui/file/a424526de93a23ef0b62ce5cb71b3b228ac486a9454b647210025f05e67040fc): 0 of 64 scanners flagged it
+- Installer: **0 of 67** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/d5473532ea04586f64be95ff39c7e7884d005fad604eebcf8c3467913e4b715f))
+- Portable zip: **0 of 64** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/a424526de93a23ef0b62ce5cb71b3b228ac486a9454b647210025f05e67040fc))
 <!-- /vt -->
 
 ## What it connects to
