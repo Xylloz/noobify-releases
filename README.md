@@ -210,10 +210,10 @@ Or check it yourself:
 - **VirusTotal.** Every release gets scanned, and the results are in its notes.
 
 <!-- vt -->
-VirusTotal's scan of 0.4.5:
+VirusTotal's scan of 0.4.5.1:
 
-- Installer: **0 of 66** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/b18ae2702bd8f97280980179b10a01098d20a1a8bf2b6d41466bcda82257acde))
-- Portable zip: **0 of 66** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/02364d74a325b5258736e1e335a4fe0257004db06d938f8b0049b52bd187b470))
+- Installer: **0 of 68** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/0c41d39def27d0e6b7aa01849b2649fd9c07e4a7752aaf06a652dafec8ff8528))
+- Portable zip: **0 of 64** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/b395efe7a48b69222d15b23b74a8b43a6648fb79052e1167c6ded5ad034e3967))
 <!-- /vt -->
 
 ## What it connects to
