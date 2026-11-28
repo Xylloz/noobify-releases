@@ -210,10 +210,10 @@ Or check it yourself:
 - **VirusTotal.** Every release gets scanned, and the results are in its notes.
 
 <!-- vt -->
-VirusTotal's scan of 0.5.0-beta.1:
+VirusTotal's scan of 0.5.0-beta.14:
 
-- Installer: **0 of 67** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/937763fa427388c2e01173aa9a9e0953240de51559835d0829248f3e3035b050))
-- Portable zip: **0 of 64** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/a692b73f55c58e8170b132d7cfa391ddcf51610d661b5ce8b2d92f782a1a6294))
+- Installer: **0 of 66** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/131c9f82de925b7010658e36e41fdf862fbca45cfcf78e11ef4d9ab54d8c27e0))
+- Portable zip: **0 of 65** antivirus engines flagged it ([scan report](https://www.virustotal.com/gui/file/e5a164216b008b0db9803d4e584c34a98c629c56cb1405def50b3ba5047d6087))
 <!-- /vt -->
 
 ## What it connects to
